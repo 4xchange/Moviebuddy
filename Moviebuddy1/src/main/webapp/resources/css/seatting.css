@@ -1,0 +1,40 @@
+@CHARSET "ISO-8859-1";
+td{
+                border-style:outset ;
+                width: 15px;
+                height: 15px;
+                text-align: center;
+                background-color: red;
+           
+              
+            }
+            table {
+               border-collapse: separate;
+                 border-spacing: 5px 0;
+                 empty-cells: show;
+                 }
+                 td.skip{
+                      border: 1px #737373;
+                     width: 15px;
+                height: 15px;
+                     background-color: #737373;
+                 }    
+               td:hover {
+                         background-color: yellow;
+                         }
+                           
+                td.skip:hover {
+                     background-color: #737373;
+                          }
+                          .selected{
+                              background-color: blue;
+                          }
+                          div.Div{
+                              border-style: outset;
+                              width: 350px;
+                              height: 25px;
+                              text-align: center;
+                              color: blue;
+                              
+                              
+                          }
